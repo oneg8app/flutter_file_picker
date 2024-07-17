@@ -3,10 +3,10 @@
 import 'dart:ffi';
 
 import 'package:ffi/ffi.dart';
-import 'package:file_picker/src/exceptions.dart';
-import 'package:file_picker/src/file_picker.dart';
-import 'package:file_picker/src/windows/file_picker_windows.dart';
-import 'package:file_picker/src/windows/file_picker_windows_ffi_types.dart';
+import 'package:custom_file_picker/src/exceptions.dart';
+import 'package:custom_file_picker/src/file_picker.dart';
+import 'package:custom_file_picker/src/windows/file_picker_windows.dart';
+import 'package:custom_file_picker/src/windows/file_picker_windows_ffi_types.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

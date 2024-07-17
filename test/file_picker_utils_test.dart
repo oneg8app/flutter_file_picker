@@ -1,6 +1,6 @@
 @TestOn('linux || mac-os')
 import 'dart:io';
-import 'package:file_picker/src/utils.dart';
+import 'package:custom_file_picker/src/utils.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'common.dart';

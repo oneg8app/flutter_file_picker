@@ -1,8 +1,8 @@
 @TestOn('linux')
 
-import 'package:file_picker/src/linux/dialog_handler.dart';
-import 'package:file_picker/src/linux/kdialog_handler.dart';
-import 'package:file_picker/src/linux/qarma_and_zenity_handler.dart';
+import 'package:custom_file_picker/src/linux/dialog_handler.dart';
+import 'package:custom_file_picker/src/linux/kdialog_handler.dart';
+import 'package:custom_file_picker/src/linux/qarma_and_zenity_handler.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

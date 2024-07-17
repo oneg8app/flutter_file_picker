@@ -4,10 +4,10 @@ import 'dart:math';
 import 'dart:typed_data';
 
 import 'package:ffi/ffi.dart';
-import 'package:file_picker/file_picker.dart';
-import 'package:file_picker/src/utils.dart';
-import 'package:file_picker/src/exceptions.dart';
-import 'package:file_picker/src/windows/file_picker_windows_ffi_types.dart';
+import 'package:custom_file_picker/file_picker.dart';
+import 'package:custom_file_picker/src/utils.dart';
+import 'package:custom_file_picker/src/exceptions.dart';
+import 'package:custom_file_picker/src/windows/file_picker_windows_ffi_types.dart';
 import 'package:path/path.dart';
 import 'package:win32/win32.dart';
 

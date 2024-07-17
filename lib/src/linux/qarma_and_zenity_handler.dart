@@ -1,5 +1,5 @@
-import 'package:file_picker/file_picker.dart';
-import 'package:file_picker/src/linux/dialog_handler.dart';
+import 'package:custom_file_picker/file_picker.dart';
+import 'package:custom_file_picker/src/linux/dialog_handler.dart';
 import 'package:path/path.dart' as p;
 
 class QarmaAndZenityHandler implements DialogHandler {

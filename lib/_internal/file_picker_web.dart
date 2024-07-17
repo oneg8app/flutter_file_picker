@@ -3,7 +3,7 @@ import 'dart:js_interop';
 import 'package:web/web.dart';
 import 'dart:typed_data';
 
-import 'package:file_picker/file_picker.dart';
+import 'package:custom_file_picker/file_picker.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 class FilePickerWeb extends FilePicker {
