@@ -50,8 +50,6 @@ abstract class FilePicker extends PlatformInterface {
       return FilePickerIO();
     } else if (Platform.isLinux) {
       return FilePickerLinux();
-    } else if (Platform.isWindows) {
-      return filePickerWithFFI();
     } else if (Platform.isMacOS) {
       return FilePickerMacOS();
     } else {
