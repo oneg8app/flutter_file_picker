@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name                  = 'custom_file_picker'
-  s.version               = '0.0.1'
+  s.version               = '0.0.2'
   s.summary               = 'A flutter plugin to show native file picker dialogs'
   s.description           = <<-DESC
 A flutter plugin to show native file picker dialogs.
