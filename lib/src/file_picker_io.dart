@@ -5,7 +5,7 @@ import 'package:custom_file_picker/file_picker.dart';
 import 'package:flutter/services.dart';
 
 final MethodChannel _channel = MethodChannel(
-  'miguelruivo.flutter.plugins.filepicker',
+  'miguelruivo.flutter.plugins.CustomFilePicker',
   Platform.isLinux || Platform.isWindows || Platform.isMacOS
       ? const JSONMethodCodec()
       : const StandardMethodCodec(),
@@ -14,8 +14,8 @@ final MethodChannel _channel = MethodChannel(
 const EventChannel _eventChannel =
     EventChannel('miguelruivo.flutter.plugins.filepickerevent');
 
-/// An implementation of [FilePicker] that uses method channels.
-class FilePickerIO extends FilePicker {
+/// An implementation of [CustomFilePicker] that uses method channels.
+class FilePickerIO extends CustomFilePicker {
   static const String _tag = 'MethodChannelFilePicker';
   static StreamSubscription? _eventSubscription;
 

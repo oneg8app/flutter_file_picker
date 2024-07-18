@@ -1,4 +1,4 @@
-package com.mr.flutter.plugin.filepicker;
+package com.mr.flutter.plugin.CustomFilePicker;
 
 import android.app.Activity;
 import android.app.Application;
@@ -30,8 +30,8 @@ import io.flutter.plugin.common.MethodChannel;
 @SuppressWarnings("deprecation")
 public class FilePickerPlugin implements MethodChannel.MethodCallHandler, FlutterPlugin, ActivityAware {
 
-    private static final String TAG = "FilePicker";
-    private static final String CHANNEL = "miguelruivo.flutter.plugins.filepicker";
+    private static final String TAG = "CustomFilePicker";
+    private static final String CHANNEL = "miguelruivo.flutter.plugins.CustomFilePicker";
     private static final String EVENT_CHANNEL = "miguelruivo.flutter.plugins.filepickerevent";
 
     private class LifeCycleObserver

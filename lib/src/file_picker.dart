@@ -30,22 +30,22 @@ enum FilePickerStatus {
 /// does not consider newly added methods to be breaking changes. Extending this class
 /// (using `extends`) ensures that the subclass will get the default implementation, while
 /// platform implementations that `implements` this interface will be broken by newly added
-/// [FilePicker] methods.
-abstract class FilePicker extends PlatformInterface {
-  FilePicker() : super(token: _token);
+/// [CustomFilePicker] methods.
+abstract class CustomFilePicker extends PlatformInterface {
+  CustomFilePicker() : super(token: _token);
 
   static final Object _token = Object();
 
-  static FilePicker _instance = FilePicker._setPlatform();
+  static CustomFilePicker _instance = CustomFilePicker._setPlatform();
 
-  static FilePicker get platform => _instance;
+  static CustomFilePicker get platform => _instance;
 
-  static set platform(FilePicker instance) {
+  static set platform(CustomFilePicker instance) {
     PlatformInterface.verifyToken(instance, _token);
     _instance = instance;
   }
 
-  factory FilePicker._setPlatform() {
+  factory CustomFilePicker._setPlatform() {
     if (Platform.isAndroid || Platform.isIOS) {
       return FilePickerIO();
     } else if (Platform.isLinux) {

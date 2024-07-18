@@ -32,7 +32,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.mr.flutter.plugin.filepicker
+        package: com.mr.flutter.plugin.CustomFilePicker
         pluginClass: FilePickerPlugin
       ios:
         pluginClass: CustomFilePickerPlugin
