@@ -1,4 +1,4 @@
-package com.mr.flutter.plugin.CustomFilePicker;
+package com.mr.flutter.plugin.filepicker;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

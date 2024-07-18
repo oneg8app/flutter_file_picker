@@ -1,4 +1,4 @@
-group 'com.mr.flutter.plugin.CustomFilePicker'
+group 'com.mr.flutter.plugin.filepicker'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -39,6 +39,6 @@ android {
     }
 
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.mr.flutter.plugin.CustomFilePicker' 
+        namespace 'com.mr.flutter.plugin.filepicker' 
     }
 }

@@ -6,7 +6,7 @@ import 'package:custom_file_picker/src/linux/dialog_handler.dart';
 import 'package:custom_file_picker/src/platform_file.dart';
 import 'package:custom_file_picker/src/utils.dart';
 
-class FilePickerLinux extends CustomFilePicker {
+class FilePickerLinux extends FilePicker {
   @override
   Future<FilePickerResult?> pickFiles({
     String? dialogTitle,

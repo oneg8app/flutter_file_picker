@@ -6,7 +6,7 @@ import 'dart:typed_data';
 import 'package:custom_file_picker/file_picker.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
-class FilePickerWeb extends CustomFilePicker {
+class FilePickerWeb extends FilePicker {
   late Element _target;
   final String _kFilePickerInputsDomId = '__file_picker_web-file-input';
 
@@ -19,7 +19,7 @@ class FilePickerWeb extends CustomFilePicker {
   }
 
   static void registerWith(Registrar registrar) {
-    CustomFilePicker.platform = platform;
+    FilePicker.platform = platform;
   }
 
   /// Initializes a DOM container where we can host input elements.

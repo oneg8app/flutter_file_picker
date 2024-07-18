@@ -1,4 +1,4 @@
-package com.mr.flutter.plugin.CustomFilePicker.example
+package com.mr.flutter.plugin.filepicker.example
 
 import io.flutter.embedding.android.FlutterActivity
 
